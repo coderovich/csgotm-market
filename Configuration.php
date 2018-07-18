@@ -1,6 +1,6 @@
 <?php
 
-namespace common\components\Steam\Markets\CsGoTm;
+namespace coderovich\CsGoTm;
 
 
 
