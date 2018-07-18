@@ -1,0 +1,38 @@
+{
+  "name": "coderovich/csgotm-market",
+  "description": "CsGoTm.Market PHP API",
+  "keywords": [
+    "CsGoTm",
+    "cs:go",
+    "api"
+  ],
+  "homepage": "https://github.com/coderovich/csgotm-market",
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/coderovich/csgotm-market/issues",
+    "source": "https://github.com/coderovich/csgotm-market"
+  },
+  "authors": [
+    {
+      "name": "Sergei Pavlov",
+      "email": "spavlov@li.ru",
+      "homepage": "https://illine.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "coderovich\\CsGoTm\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
