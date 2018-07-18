@@ -1,8 +1,8 @@
 <?php
 
-namespace common\components\Steam\Markets\CsGoTm\Runner;
+namespace coderovich\CsGoTm\Runner;
 
-use common\components\Steam\Markets\CsGoTm\Commands\CommandInterface;
+use coderovich\CsGoTm\Commands\CommandInterface;
 use Psr\Http\Message\ResponseInterface;
 
 class DecodeJsonStringRunner extends AbstractRunner implements RunnerInterface

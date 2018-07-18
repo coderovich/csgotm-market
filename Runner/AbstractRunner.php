@@ -1,8 +1,8 @@
 <?php
 
-namespace common\components\Steam\Markets\CsGoTm\Runner;
+namespace coderovich\CsGoTm\Runner;
 
-use common\components\Steam\Markets\CsGoTm\Configuration;
+use coderovich\CsGoTm\Configuration;
 
 abstract class AbstractRunner
 {

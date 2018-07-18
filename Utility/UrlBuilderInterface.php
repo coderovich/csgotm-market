@@ -1,7 +1,7 @@
 <?php
-namespace common\components\Steam\Markets\CsGoTm\Utility;
+namespace coderovich\CsGoTm\Utility;
 
-use common\components\Steam\Markets\CsGoTm\Commands\CommandInterface;
+use coderovich\CsGoTm\Commands\CommandInterface;
 
 interface UrlBuilderInterface
 {

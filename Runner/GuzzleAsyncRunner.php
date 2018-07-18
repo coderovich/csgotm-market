@@ -1,9 +1,9 @@
 <?php
 
-namespace common\components\Steam\Markets\CsGoTm\Runner;
+namespace coderovich\CsGoTm\Runner;
 
-use common\components\Steam\Markets\CsGoTm\Commands\CommandInterface;
-use common\components\Steam\Markets\CsGoTm\Utility\UrlBuilderInterface;
+use coderovich\CsGoTm\Commands\CommandInterface;
+use coderovich\CsGoTm\Utility\UrlBuilderInterface;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Psr7\Request;

@@ -1,9 +1,9 @@
 <?php
 
-namespace common\components\Steam\Markets\CsGoTm\Runner;
+namespace coderovich\CsGoTm\Runner;
 
-use common\components\Steam\Markets\CsGoTm\Configuration;
-use common\components\Steam\Markets\CsGoTm\Commands\CommandInterface;
+use coderovich\CsGoTm\Configuration;
+use coderovich\CsGoTm\Commands\CommandInterface;
 
 interface RunnerInterface
 {

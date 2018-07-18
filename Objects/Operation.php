@@ -1,12 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: SPavlov
- * Date: 17.03.2018
- * Time: 8:55
- */
 
-namespace common\components\Steam\Markets\CsGoTm\Objects;
+
+namespace coderovich\CsGoTm\Objects;
 
 
 class Operation {

@@ -1,19 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: SPavlov
- * Date: 09.03.2018
- * Time: 10:05
- */
+
 
 namespace common\components\Steam\Markets\CsGoTm;
 
 
-use common\components\Steam\Markets\CsGoTm\Commands\CommandInterface;
-use common\components\Steam\Markets\CsGoTm\Runner\DecodeJsonStringRunner;
-use common\components\Steam\Markets\CsGoTm\Runner\GuzzleRunner;
-use common\components\Steam\Markets\CsGoTm\Runner\RunnerInterface;
-use common\components\Steam\Markets\CsGoTm\Utility\GuzzleUrlBuilder;
+use coderovich\CsGoTm\Commands\CommandInterface;
+use coderovich\CsGoTm\Runner\DecodeJsonStringRunner;
+use coderovich\CsGoTm\Runner\GuzzleRunner;
+use coderovich\CsGoTm\Runner\RunnerInterface;
+use coderovich\CsGoTm\Utility\GuzzleUrlBuilder;
 use GuzzleHttp\Client;
 
 class CsGoTm {
