@@ -34,6 +34,11 @@ class CsGoTm {
         }
     }
 
+	/**
+	 * @param CommandInterface $command
+	 * @throws \GuzzleHttp\Exception\RequestException
+	 * @return mixed|null
+	 */
     public function run(CommandInterface $command) {
 
         $this->addRunner(new GuzzleRunner(new Client(), new GuzzleUrlBuilder()));
