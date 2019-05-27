@@ -3,7 +3,6 @@
 
 namespace coderovich\CsGoTm;
 
-
 use coderovich\CsGoTm\Commands\CommandInterface;
 use coderovich\CsGoTm\Runner\DecodeJsonStringRunner;
 use coderovich\CsGoTm\Runner\GuzzleRunner;
