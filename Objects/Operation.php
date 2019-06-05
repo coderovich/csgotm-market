@@ -71,7 +71,7 @@ class Operation {
         $this->event = $operation['h_event'];
         $this->time = $operation['h_time'];
         $this->eventId = $operation['h_event_id'];
-        $this->marketHashName = $operation['market_hash_name'];
+        $this->marketHashName = isset($operation['market_hash_name'])?$operation['market_hash_name']:null;
         $this->stage = $operation['stage'];
         $this->dateTimeText = date("d.m.Y H:i", $this->time);
         $this->item = $operation['item'];
