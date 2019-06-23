@@ -10,15 +10,13 @@ class Operation {
      * Read more: https://csgo.tm/docs/
      */
     CONST EVENT_BUY_CSGO = "buy_go";
+		CONST EVENT_CHECKIN = "checkin";
 
     const STATUS_PROCESSING = 1;
     const STATUS_ACCEPTED   = 2;
     const STATUS_FAIL       = 5;
 
-    /**
-     * @var array
-     */
-    private $operation;
+    protected $operation;
     public $id;
     public $time;
     public $event;
@@ -27,6 +25,8 @@ class Operation {
     public $stage;
     public $item;
     public $marketHashName;
+    public $dateTimeText;
+    public $stageText;
 
 
     public static function getStageText($stage) {
